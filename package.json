@@ -1,0 +1,16 @@
+{
+  "name": "rls2022",
+  "version": "1.0.0",
+  "description": "naked-wordpress ===============",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/main.scss style.css --watch"
+  },
+  "author": "Christine Lyston",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.9"
+  }
+}

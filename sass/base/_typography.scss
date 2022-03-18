@@ -1,0 +1,59 @@
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@700&display=swap');
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  font-family: $body-font;
+  color: $dark-grey;
+  cursor: default;
+}
+
+h1, h2, h3, h4 {
+  font-family: $heading-font;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p, li, span, a, label, input, textarea {
+  font-family: $body-font;
+  font-size: 1.6rem;
+  padding: $main-spacing 0;
+}
+
+li {
+  list-style-position: inside;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: $dark-grey;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $green;
+}

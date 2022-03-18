@@ -1,0 +1,501 @@
+/*
+Theme Name: Reiki Light Space 2022
+Author: C Lyston
+Author URI: https://christinelyston.co.uk/
+Description: Reiki Light Space Theme 2022
+Version: 1.0
+License: GNU General Public License
+*/
+/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@700&display=swap");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  cursor: default;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p, li, span, a, label, input, textarea {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+}
+
+li {
+  list-style-position: inside;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: #333333;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #92B851;
+}
+
+/* Nav Bar */
+nav {
+  width: 100%;
+}
+
+.logo-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem 0;
+}
+
+#logo {
+  width: 30rem;
+  height: auto;
+}
+
+.nav-links {
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #92B851;
+  border-bottom: 1px solid #92B851;
+}
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+.nav-links li {
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.hamburger-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.hamburger {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 100;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.hamburger:hover {
+  background: transparent;
+}
+
+.menu-icon {
+  display: block;
+}
+
+.close-icon {
+  color: white;
+  display: none !important;
+}
+
+.hamburger-menu {
+  position: fixed;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #2D3819;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-top: 3.2rem;
+}
+.hamburger-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5rem;
+}
+.hamburger-menu li {
+  padding: 1rem;
+  margin-bottom: 0;
+}
+.hamburger-menu a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.hamburger-menu a:hover {
+  color: #92B851;
+}
+
+.showMenu {
+  transform: translateX(0);
+}
+
+.hideOverflow {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+@media screen and (min-width: 1080px) {
+  .nav-links {
+    display: flex;
+  }
+}
+footer {
+  background-color: #2D3819;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+footer a:hover {
+  color: #92B851;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link-tree {
+  margin: 1.6rem;
+}
+.link-tree li {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.8rem;
+}
+
+.address {
+  margin: 1.6rem 0;
+}
+.address p {
+  padding: 0.8rem;
+  margin: 0;
+}
+
+.fas {
+  margin-right: 0.8rem;
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+}
+.sns i {
+  padding: 1.6rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .link-tree {
+    padding: 0;
+  }
+}
+/* Page Sections */
+.page-container {
+  width: 90%;
+  margin: auto;
+}
+
+.wp-block-separator {
+  width: 15rem;
+  color: #92B851;
+}
+
+/* Tablet & Laptop View */
+@media (min-width: 768px) {
+  .page-container {
+    width: 80%;
+  }
+}
+/* Desktop View */
+@media (min-width: 1200px) {
+  .page-container {
+    max-width: 1200px;
+  }
+}
+article {
+  margin: 2.5rem 0;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  border: 1px solid lightgrey;
+  padding: 0.5rem 1rem;
+  max-width: 400px;
+  margin: 0.5rem 0;
+}
+
+/* Buttons */
+button {
+  padding: 1.6rem;
+  border: none;
+  border-radius: 5rem;
+  margin: 1rem 0;
+  width: fit-content;
+  background-color: #92B851;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #DCDCDC;
+}
+
+/* Back To Top Button */
+#back-to-top-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 1rem;
+  display: none;
+}
+#back-to-top i {
+  margin: 0;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://reikilightspace.co.uk/wp-content/uploads/2021/07/reiki-light.jpg");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+.home-welcome {
+  text-align: center;
+  padding: 3.2rem 0;
+}
+.home-welcome p {
+  text-align: justify;
+}
+
+.home-services, .home-pricing {
+  text-align: center;
+  padding: 3.2rem 0;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info-box p {
+  text-align: justify;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://reikilightspace.co.uk/wp-content/uploads/2021/07/reiki-light.jpg");
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  text-align: center;
+  padding: 4.8rem 0;
+}
+
+.pricing-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px dotted #DCDCDC;
+  padding-top: 1.6rem;
+}
+
+@media screen and (min-width: 780px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-text {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .hero {
+    height: 100vh;
+  }
+
+  .services {
+    width: 80%;
+    margin: auto;
+  }
+
+  .info-box {
+    max-width: 33%;
+  }
+}
+.about-page {
+  text-align: center;
+  padding: 3.2rem 0;
+}
+.about-page h2 {
+  text-align: center;
+}
+.about-page p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */

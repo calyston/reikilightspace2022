@@ -1,0 +1,99 @@
+.hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://reikilightspace.co.uk/wp-content/uploads/2021/07/reiki-light.jpg");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+.home-welcome {
+  text-align: center;
+  padding: ($main-spacing * 2) 0;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.home-services, .home-pricing {
+  text-align: center;
+  padding: ($main-spacing * 2) 0;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info-box p {
+  text-align: justify;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://reikilightspace.co.uk/wp-content/uploads/2021/07/reiki-light.jpg");
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  text-align: center;
+  padding: ($main-spacing * 3) 0;
+}
+
+.pricing-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px dotted $light-grey;
+  padding-top: $main-spacing;
+}
+
+@media screen and (min-width: 780px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-text {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .hero {
+    height: 100vh;
+  }
+
+  .services {
+    width: 80%;
+    margin: auto;
+  }
+
+  .info-box {
+    max-width: 33%;
+  }
+}

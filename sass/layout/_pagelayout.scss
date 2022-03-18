@@ -1,0 +1,29 @@
+/* Page Sections */
+
+.page-container {
+  width: 90%;
+  margin: auto;
+}
+
+.wp-block-separator {
+  width: 15rem;
+  color: $green;
+}
+
+/* Tablet & Laptop View */
+@media (min-width: 768px) {
+  .page-container {
+    width: 80%;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 1200px) {
+  .page-container {
+    max-width: 1200px;
+  }
+}
+
+article {
+  margin: 2.5rem 0;
+}
