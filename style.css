@@ -496,17 +496,17 @@ button:hover {
     max-width: 33%;
   }
 }
-.about-page, .reiki-page {
+.about-page, .reiki-page, .hypnotherapy-page {
   text-align: center;
   padding: 3.2rem 0;
 }
-.about-page h2, .reiki-page h2 {
+.about-page h2, .reiki-page h2, .hypnotherapy-page h2 {
   text-align: center;
 }
-.about-page p, .reiki-page p {
+.about-page p, .reiki-page p, .hypnotherapy-page p {
   text-align: justify;
 }
-.about-page li, .reiki-page li {
+.about-page li, .reiki-page li, .hypnotherapy-page li {
   text-align: left;
 }
 
