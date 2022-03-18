@@ -1,9 +1,6 @@
 <?php 
 /**
- * 	Template Name: Sidebar/Home Page
- *
- *	This page template has a sidebar built into it, 
- * 	and can be used as a home page, in which case the title will not show up.
+ * 	Template Name: Home Page
  *
 */
 get_header(); // This fxn gets the header.php file and renders it ?>

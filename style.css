@@ -239,6 +239,10 @@ nav {
   .nav-links {
     display: flex;
   }
+
+  .hamburger-container {
+    display: none;
+  }
 }
 footer {
   background-color: #2D3819;
@@ -263,30 +267,24 @@ footer a:hover {
   justify-content: center;
 }
 
-.footer-text {
+.footer-links {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
 }
-
-.link-tree {
-  margin: 1.6rem;
-}
-.link-tree li {
-  list-style: none;
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   text-transform: uppercase;
-  margin: 0;
-  padding: 0.8rem;
 }
-
-.address {
-  margin: 1.6rem 0;
-}
-.address p {
-  padding: 0.8rem;
-  margin: 0;
+.footer-links li {
+  list-style: none;
+  margin: 0 1.5rem;
+  cursor: pointer;
 }
 
 .fas {
@@ -296,23 +294,22 @@ footer a:hover {
 .sns {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.sns p {
+  padding: 0;
 }
 .sns i {
   padding: 1.6rem;
 }
 
-@media screen and (min-width: 600px) {
-  .footer-text {
-    width: 100%;
+@media screen and (min-width: 780px) {
+  .footer-links ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    text-align: left;
-  }
-
-  .link-tree {
-    padding: 0;
+    text-transform: uppercase;
   }
 }
 /* Page Sections */
@@ -448,9 +445,13 @@ button:hover {
   padding: 4.8rem 0;
 }
 
+.home-pricing button {
+  margin-top: 3.2rem;
+}
+
 .pricing-service {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   border-bottom: 2px dotted #DCDCDC;
   padding-top: 1.6rem;
@@ -472,6 +473,14 @@ button:hover {
     width: 50%;
     margin: auto;
   }
+
+  .pricing-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px dotted #DCDCDC;
+    padding-top: 1.6rem;
+  }
 }
 @media screen and (min-width: 1080px) {
   .hero {
@@ -487,15 +496,25 @@ button:hover {
     max-width: 33%;
   }
 }
-.about-page {
+.about-page, .reiki-page {
   text-align: center;
   padding: 3.2rem 0;
 }
-.about-page h2 {
+.about-page h2, .reiki-page h2 {
   text-align: center;
 }
-.about-page p {
+.about-page p, .reiki-page p {
   text-align: justify;
+}
+.about-page li, .reiki-page li {
+  text-align: left;
+}
+
+.reiki-pricing p {
+  text-align: center;
+}
+.reiki-pricing button {
+  margin-top: 3.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

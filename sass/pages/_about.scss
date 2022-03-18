@@ -1,6 +1,6 @@
 // About Page
 
-.about-page {
+.about-page, .reiki-page {
   text-align: center;
   padding: ($main-spacing * 2) 0;
 
@@ -10,5 +10,21 @@
   
   p {
     text-align: justify;
+  }
+
+  li {
+    text-align: left;
+  }
+}
+
+// Reiki Page
+
+.reiki-pricing {
+  p {
+    text-align: center;
+  }
+  
+  button {
+    margin-top: ($main-spacing * 2);
   }
 }

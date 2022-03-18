@@ -6,10 +6,9 @@
 	<section class="footer-container">
 	<a href="<?php echo get_bloginfo('url') ?>"><img id="logo" src="<?php echo get_bloginfo('template_url') ?>/assets/full-logo-white.png" alt="logo"/></a>
     <section class="footer-text">
-      <div class="link-tree">
-        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) );?>
+      <div class="footer-links">
+        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) );?>
       </div>
-      <?php dynamic_sidebar('contact-info'); ?>
       <div class="sns">
         <a href="">
           <p><i class="fab fa-facebook-f fa-2x"></i></p>
@@ -19,7 +18,7 @@
         </a>
       </div>
     </section>
-    <p>Privacy Policy | Terms and Conditions</p>
+    <p><a href="https://reikilightspace.co.uk/privacy-policy">Privacy Policy</a> | Terms and Conditions</p>
     <p>&copy; 2022 Reiki Light Space | All Rights Reserved</p>
 		<p>Designed and developed by <a href="https://christinelyston.co.uk/" target="blank">Christine Lyston</a></p>	
 	</section>

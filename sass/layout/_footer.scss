@@ -25,31 +25,25 @@ footer {
   justify-content: center;
 }
 
-.footer-text {
+.footer-links {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-}
 
-.link-tree {
-  margin: $main-spacing;
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+  }
 
   li {
     list-style: none;
-    text-transform: uppercase;
-    margin: 0;
-    padding: ($main-spacing / 2);
-  }
-}
-
-.address {
-  margin: $main-spacing 0;
-
-  p {
-    padding: ($main-spacing / 2);
-    margin: 0;
+    margin: 0 1.5rem;
+    cursor: pointer;
   }
 }
 
@@ -60,6 +54,11 @@ footer {
 .sns {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+
+  p {
+    padding: 0;
+  }
 
   i {
     padding: $main-spacing;
@@ -68,17 +67,14 @@ footer {
 
 // Tablet & Desktop View
 
-@media screen and (min-width: 600px) {
-  .footer-text {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-  }
-
-  .link-tree {
-    padding: 0;
+@media screen and (min-width: 780px) {
+  .footer-links {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      text-transform: uppercase;
+    }
   }
 }

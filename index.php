@@ -69,7 +69,6 @@
 				</div>
 			</div>
 			<a href="https://reikilightspace.co.uk/contact/"><button>Book an Appointment</button></a>
-
 		</section>
 		
   </main>
