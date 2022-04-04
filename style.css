@@ -434,7 +434,7 @@ button:hover {
 }
 
 .banner {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("https://reikilightspace.co.uk/wp-content/uploads/2022/04/crystals-photo.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://reikilightspace.co.uk/wp-content/uploads/2022/04/crystals-photo.png");
   height: fit-content;
   background-position: center;
   background-repeat: no-repeat;
