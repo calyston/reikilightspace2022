@@ -23,13 +23,13 @@
       <h2>Services</h2>
       <div class="services">
         <div class="info-box">
-          <img src="<?php echo get_bloginfo('template_url') ?>/assets/pictures/reiki-light.jpg" alt="reiki-light"/>
+          <img src="https://reikilightspace.co.uk/wp-content/uploads/2022/04/candles-photo.png" alt="reiki-light"/>
           <h3>Reiki</h3>
           <p>Reiki can help to relieve immediate stress and anxiety. It promotes the body’s ability to heal itself.</p>
           <a href="https://reikilightspace.co.uk/reiki/"><button class="main-button">Read More</button></a>
         </div>
         <div class="info-box">
-          <img src="<?php echo get_bloginfo('template_url') ?>/assets/pictures/sunset.jpg" alt="sunset-beach"/>
+          <img src="https://reikilightspace.co.uk/wp-content/uploads/2022/04/sunset-photo.png" alt="sunset-beach"/>
           <h3>Hypnotherapy</h3>
           <p>Hypnotherapy is a non-invasive therapy that helps to bring about positive changes to thoughts, feelings or behaviour.</p>
           <a href="https://reikilightspace.co.uk/hypnotherapy/"><button class="main-button">Read More</button></a>

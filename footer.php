@@ -9,16 +9,8 @@
       <div class="footer-links">
         <?php wp_nav_menu( array( 'theme_location' => 'primary' ) );?>
       </div>
-      <div class="sns">
-        <a href="">
-          <p><i class="fab fa-facebook-f fa-2x"></i></p>
-        </a>
-        <a href="">
-          <p><i class="fab fa-instagram fa-2x"></i></p>
-        </a>
-      </div>
     </section>
-    <p><a href="https://reikilightspace.co.uk/privacy-policy">Privacy Policy</a> | Terms and Conditions</p>
+    <p><a href="https://reikilightspace.co.uk/privacy-policy">Privacy Policy</a> | <a href="https://reikilightspace.co.uk/terms-conditions/">Terms and Conditions</a></p>
     <p>&copy; 2022 Reiki Light Space | All Rights Reserved</p>
 		<p>Designed and developed by <a href="https://christinelyston.co.uk/" target="blank">Christine Lyston</a></p>	
 	</section>

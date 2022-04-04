@@ -121,6 +121,7 @@ a:hover {
 
 nav {
   width: 100%;
+  border-bottom: 1px solid #92B851;
 }
 
 .logo-container {
@@ -144,7 +145,6 @@ nav {
   justify-content: center;
   align-items: center;
   border-top: 1px solid #92B851;
-  border-bottom: 1px solid #92B851;
 }
 .nav-links ul {
   display: flex;
@@ -380,7 +380,7 @@ button:hover {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://reikilightspace.co.uk/wp-content/uploads/2021/07/reiki-light.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("https://reikilightspace.co.uk/wp-content/uploads/2022/04/reiki-light-photo.png");
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -405,7 +405,8 @@ button:hover {
   text-align: justify;
 }
 
-.home-services, .home-pricing {
+.home-services,
+.home-pricing {
   text-align: center;
   padding: 3.2rem 0;
 }
@@ -413,16 +414,27 @@ button:hover {
 .services {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-evenly;
 }
 
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .info-box p {
-  text-align: justify;
+  text-align: center;
+}
+.info-box img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
 }
 
 .banner {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://reikilightspace.co.uk/wp-content/uploads/2021/07/reiki-light.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("https://reikilightspace.co.uk/wp-content/uploads/2022/04/crystals-photo.png");
   height: fit-content;
   background-position: center;
   background-repeat: no-repeat;
@@ -457,7 +469,7 @@ button:hover {
   .services {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
   }
 
@@ -583,6 +595,10 @@ iframe {
     width: 40rem;
     height: 30rem;
   }
+}
+cite {
+  font-size: 1.6rem;
+  font-family: "Playfair Display", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@
 
 nav {
   width: 100%;
+  border-bottom: 1px solid $green;
 }
 
 .logo-container {
@@ -25,7 +26,6 @@ nav {
   justify-content: center;
   align-items: center;
   border-top: 1px solid $green;
-  border-bottom: 1px solid $green;
 
   ul {
     display: flex;
@@ -68,7 +68,7 @@ nav {
 
 .close-icon {
   color: white;
-  display: none!important;
+  display: none !important;
 }
 
 .hamburger-menu {
@@ -123,6 +123,7 @@ nav {
 // Tablet & Desktop View
 
 @media screen and (min-width: 1080px) {
+
   .nav-links {
     display: flex;
   }
