@@ -16,6 +16,15 @@
   text-align: center;
   position: absolute;
   color: white;
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
 }
 
 .home-welcome {
@@ -25,6 +34,8 @@
   p {
     text-align: justify;
   }
+
+
 }
 
 .home-services,

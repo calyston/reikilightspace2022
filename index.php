@@ -3,14 +3,15 @@
     <!-- Hero Banner -->
     <section class="hero">
       <div class="hero-text">
-        <h1>Gentle, Holistic Healing</h1>
+        <h2>Gentle, Holistic Healing</h2>
+        <h1>Reiki and Hyponotherapy in South London</h1>
 				<a href="https://reikilightspace.co.uk/contact/"><button>Book an Appointment</button></a>
       </div>
     </section>
 
     <!-- Welcome -->
     <section class="page-container home-welcome">
-      <h2>Welcome to Reiki Light Space</h2>
+      <h2>Welcome to Reikilight Space</h2>
       <p class="home-text">
         The belief that life energy flows through the body, deeply affecting our entire being, 
         has been embraced by many ancient cultures. The word ‘Reiki’ means universal life energy. 
@@ -43,33 +44,8 @@
 				<p>I have been a certified Reiki practitioner and Master (Usui lineage) for many years 
 					and work with Reiki for the well-being of others, helping others find 
 					relief (physical and emotional), balance, inner calm and peace for mind, body and spirit.</p>
+         <a href="https://reikilightspace.co.uk/contact/"><button>Book an Appointment</button></a> 
       </div>
 		</section>
-
-    <!-- Pricing -->
-		<section class="page-container home-pricing">
-			<h2>Pricing</h2>
-			<p>Payments are by bank transfer; no cash will be exchanged.</p>
-			<div class="pricing-table">
-				<div class="pricing-service">
-					<h4>Reiki (Usui Tradition)</h4>
-					<h4>£60 (60 mins) / £30 (30 mins)</h4>
-				</div>
-				<div class="pricing-service">
-					<h4>Angel Reiki</h4>
-					<h4>£65 (60 mins) / £32.50 (30 mins)</h4>
-				</div>
-				<div class="pricing-service">
-					<h4>Reiki with Crystals</h4>
-					<h4>£65 (60 mins) / £32.50 (30 mins)</h4>
-				</div>
-				<div class="pricing-service">
-					<h4>Chakra Balancing</h4>
-					<h4>£60 (60 mins) / £30 (30 mins)</h4>
-				</div>
-			</div>
-			<a href="https://reikilightspace.co.uk/contact/"><button>Book an Appointment</button></a>
-		</section>
-		
   </main>
 <?php get_footer(); ?>

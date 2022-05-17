@@ -11,7 +11,7 @@
       </div>
     </section>
     <p><a href="https://reikilightspace.co.uk/privacy-policy">Privacy Policy</a> | <a href="https://reikilightspace.co.uk/terms-conditions/">Terms and Conditions</a></p>
-    <p>&copy; 2022 Reiki Light Space | All Rights Reserved</p>
+    <p>&copy; 2022 Reikilight Space | All Rights Reserved</p>
 		<p>Designed and developed by <a href="https://christinelyston.co.uk/" target="blank">Christine Lyston</a></p>	
 	</section>
 
