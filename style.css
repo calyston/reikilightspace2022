@@ -507,17 +507,33 @@ button:hover {
     max-width: 33%;
   }
 }
-.about-page, .reiki-page, .hypnotherapy-page, .contact-page {
+.about-page,
+.reiki-page,
+.hypnotherapy-page,
+.contact-page,
+.pricing-page {
   text-align: center;
   padding: 3.2rem 0;
 }
-.about-page h2, .reiki-page h2, .hypnotherapy-page h2, .contact-page h2 {
+.about-page h2,
+.reiki-page h2,
+.hypnotherapy-page h2,
+.contact-page h2,
+.pricing-page h2 {
   text-align: center;
 }
-.about-page p, .reiki-page p, .hypnotherapy-page p, .contact-page p {
+.about-page p,
+.reiki-page p,
+.hypnotherapy-page p,
+.contact-page p,
+.pricing-page p {
   text-align: justify;
 }
-.about-page li, .reiki-page li, .hypnotherapy-page li, .contact-page li {
+.about-page li,
+.reiki-page li,
+.hypnotherapy-page li,
+.contact-page li,
+.pricing-page li {
   text-align: left;
 }
 
@@ -543,12 +559,18 @@ button:hover {
   font-weight: bold;
 }
 
-.name-form, .email-form, .subject-form, .message-form {
+.name-form,
+.email-form,
+.subject-form,
+.message-form {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
-.name-form span, .email-form span, .subject-form span, .message-form span {
+.name-form span,
+.email-form span,
+.subject-form span,
+.message-form span {
   margin: 0;
 }
 
@@ -599,8 +621,8 @@ iframe {
 }
 @media screen and (min-width: 1080px) {
   iframe {
-    width: 40rem;
-    height: 30rem;
+    width: 50rem;
+    height: 40rem;
   }
 }
 cite {

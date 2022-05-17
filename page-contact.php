@@ -13,28 +13,6 @@ get_header(); ?>
     <h2 class="page-title"><?php the_title(); ?></h2>
     <div class="contact-p"><?php the_content(); ?></div>
     <section class="contact-content">
-      <div class="contact-form">
-        <form name="form" id="form" action="https://formspree.io/f/mbjqzzep" method="POST">
-          <div class="name-form">
-            <label for="name"><span>*</span>Full Name</label>
-            <input id="name" type="text" name="name" placeholder="Full Name" required>
-          </div>
-          <div class="email-form">
-            <label for="email"><span>*</span>Email</label>
-            <input id="email" type="email" name="email" placeholder="Email" required>
-          </div>
-          <div class="subject-form">
-            <label for="subject"><span>*</span>Subject</label>
-            <input id="subject" type="text" name="subject" placeholder="Subject" required>
-          </div>
-          <div class="message-form">
-            <label for="message"><span>*</span>Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write a message..."
-              required></textarea>
-          </div>
-          <button class="main-button" type="submit">Submit</button>
-        </form>
-      </div>
       <div class="contact-address">
         <h4>Reiki Light Space</h4>
         <p>Catford, London, United Kingdom</p>
